@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0:
+}
+
+body {
+    background-color: black;
+}
+
+.righttop {
+    width: 100%;
+    text-align: right;
+}
+
+.textrighttop {
+    text-decoration: none;
+    color: beige;
+    margin-right: 20px;
+}
+
+.textrighttop:hover {
+    text-decoration: underline;
+}
+
+.pictureg {
+    margin-bottom: 100px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.search {
+    border-radius: 15px;
+}
+
+.pensil {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.block_1 {
+    widows: 100%;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.bl_1 {
+    text-decoration: none;
+    color: beige;
+    display: inline-block;
+}
+
+.bl_1:hover {
+    text-decoration: none;
+}
+
+.block_2 {
+    widows: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.bl_2 {
+    text-decoration: none;
+    color: beige;
+    display: inline-block;
+}
+
+.bl_2:hover {
+    text-decoration: none;
+}
+
+.png {
+    padding: 10px;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 90px
+}
+
+.pensil {
+    padding: 3px;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(61, 58, 58);
+    border-radius: 30px;
+}
+
+.bord {
+    text-decoration: none;
+    color: rgb(101, 130, 153);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border {
+    float: right;
+}

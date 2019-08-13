@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #d4c9c8;
+}
+
+.blue {
+    width: 500px;
+    height: 100px;
+    background-color: blue;
+}
+
+.yellow {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(238, 255, 0);
+}
+
+.flag {
+    width: 500px;
+    max-width: 492.5px;
+    margin: 10.5em auto 100px;
+    padding: 0;
+    border: 1px solid rgb(255, 255, 255)175, 21, 21);
+    box-shadow: 50px -20px 15px 5px rgba(0, 0, 0, .2);
+}
