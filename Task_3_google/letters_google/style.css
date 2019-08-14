@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.letter_oneG {
+  color: #066cd6 ;
+  font-size: 300px;
+}
+.letter_oneO {
+  color: #ff2222 ;
+    font-size: 300px;
+}
+
+.letter_twoO {
+  color: #f7d51e ;
+    font-size: 300px;
+}
+
+.letter_twoG {
+  color: #066cd6 ;
+    font-size: 300px;
+}
+
+.letter_l {
+  color: #16d440 ;
+    font-size: 300px;
+}
+
+.letter_e {
+  color: #ff2222 ;
+    font-size: 300px;
+}
+
+.print {
+  font-family: Verdana ;
+}

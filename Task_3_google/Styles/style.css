@@ -5,31 +5,113 @@
 
 body {
     background-color: black;
-}
-
-.righttop {
-    width: 100%;
-    text-align: right;
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
 }
 
 .textrighttop {
+  position: absolute;
+  top: 35px;
     text-decoration: none;
-    color: beige;
+    color: #fff;
     margin-right: 20px;
+}
+
+#gmail {
+  right: 170px;
+}
+
+#images {
+  right: 100px;
 }
 
 .textrighttop:hover {
     text-decoration: underline;
 }
 
-.pictureg {
-    margin-bottom: 100px;
-    margin-top: 120px;
-    text-align: center;
+.Google_apps {
+  position: absolute;
+  right: 65px;
+  top:30px;
 }
 
+.I {
+  position: absolute;
+  top: 17px;
+  right: 3px;
+}
+
+.letter_oneG {
+  color: #066cd6 ;
+  font-size: 100px;
+}
+.letter_oneO {
+  color: #ff2222 ;
+    font-size: 100px;
+}
+
+.letter_twoO {
+  color: #f7d51e ;
+    font-size: 100px;
+}
+
+.letter_twoG {
+  color: #066cd6 ;
+    font-size: 100px;
+}
+
+.letter_l {
+  color: #16d440 ;
+    font-size: 100px;
+}
+
+.letter_e {
+  color: #ff2222 ;
+    font-size: 100px;
+}
+
+.print {
+  font-family: Verdana ;
+  text-align: center;
+  margin-top: 150px;
+}
+
+
+.container_search {
+  position: relative;
+  margin-top: 20px;
+
+}
 .search {
-    border-radius: 15px;
+padding-left: 10px;
+  margin: 0;
+    width: 58%;
+    height: 61.5px;
+    font-family:'Segoe UI', 'Roboto', arial, sans-serif;
+}
+
+.position_ {
+  margin-left: 380px;
+}
+
+.lupa, .microfon {
+  position: absolute;
+  padding: 10px;
+  margin: 0;
+  display: inline-block;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 45px 0px 0px 45px;
+  background-color: #fff;
+}
+.lupa {
+    left: 27%;
+    top:0.5px;
+}
+.microfon {
+  border-radius: 0px 45px 45px 0px;
+  right: 27%;
+  top:0.5px;
 }
 
 .pensil {
@@ -41,13 +123,17 @@ body {
 .block_1 {
     widows: 100%;
     text-align: center;
-    margin-bottom: 75px;
+    margin-bottom: 5px;
 }
 
 .bl_1 {
+    margin-top: 5px;
+    max-width: 100%;
     text-decoration: none;
     color: beige;
-    display: inline-block;
+    /* position: relative;
+    top: 30px;
+    right: 60px; */
 }
 
 .bl_1:hover {
@@ -55,12 +141,13 @@ body {
 }
 
 .block_2 {
-    widows: 100%;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .bl_2 {
+  margin-top: 5px;
+  max-width: 100%;
     text-decoration: none;
     color: beige;
     display: inline-block;
@@ -71,28 +158,46 @@ body {
 }
 
 .png {
+  font-size:21px;
+    display: block;
     padding: 10px;
     background-color: #fff;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     border: 1px solid white;
-    border-radius: 90px
+    border-radius: 90px;
 }
+
+
 
 .pensil {
-    padding: 3px;
+  position: absolute;
+    padding: 5px 7px 2px 5px;
+    text-align: center;
     width: 110px;
     height: 30px;
-    background-color: rgb(61, 58, 58);
+    background-color: rgb(50, 51, 54);
     border-radius: 30px;
+    right: 1%;
+    bottom:1%;
+float: right;
 }
 
+.pensil:hover {
+  background-color:rgb(73, 68, 71);
+}
 .bord {
     text-decoration: none;
-    color: rgb(101, 130, 153);
+    color: #8ab4f8;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.border {
-    float: right;
+.a_1,
+.a_2 {
+  text-decoration: none;
+    max-height: 80px;
+    overflow: hidden;
+    display: inline-block;
+    max-width: 60px;
+    margin: 30px 30px 0px 30px;
 }
