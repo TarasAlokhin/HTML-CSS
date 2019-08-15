@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans+KR&display=swap');
+
+@media(min-width: 1000px) {
+  body {
+    background-image: url(https://wpapers.ru/wallpapers/animals/Fish/7183/1920x1200_%D0%90%D0%BA%D1%83%D0%BB%D0%B0-%D0%BD%D0%B0-%D0%B3%D0%BB%D1%83%D0%B1%D0%B8%D0%BD%D0%B5.jpg);
+    background-size: 100%;
+  }
+}
+
+body {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Навігація */
+
+.nav_item {
+  position: absolute;
+  top: 35px;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.nav_item:hover {
+  text-decoration: underline;
+}
+
+#gmail {
+  right: 170px;
+}
+
+#images {
+  right: 100px;
+}
+
+.google_apps {
+  position: absolute;
+  right: 80px;
+  top: 34px;
+}
+
+.account_image_block {
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  padding: -5px;
+  top: 10px;
+  right: 20px;
+}
+
+.account_image {
+  height: 70px;
+}
+
+/* Напис "GOOGLE"  */
+
+.GOOGLE_inscription {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.letter {
+  display: inline;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 100px;
+}
+
+.letter_g1, .letter_g2 {
+  color: #066cd6;
+}
+
+.letter_o1, .letter_e {
+  color: #ff2222;
+}
+
+.letter_o2 {
+  color: #f7d51e;
+}
+
+.letter_l {
+  color: #16d440;
+}
+
+/* Блок пошуку */
+
+.search_block {
+  position: relative;
+  margin: 50px 0px 50px 0px;
+  text-align: center;
+}
+
+.search_input {
+  position: relative;
+  border: 2px solid #fff;
+  border-radius: 90px;
+  padding-left: 75px;
+  width: 42%;
+  font-size: 1.1em;
+  height: 3em;
+  outline: none;
+}
+
+.search_button, .voice_search_button {
+  top: 0.7em;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.search_button {
+  left: 30%;
+}
+
+.voice_search_button {
+  right: 30%;
+}
+
+/* Швидкий доступ */
+
+.quick_access_raw1, .quick_access_raw2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.quick_access_item {
+  max-height: 75px;
+  text-decoration: none;
+  display: inline-block;
+  max-width: 60px;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 10px 20px 0px 20px;
+}
+
+.quick_access_item:hover {
+  background-color: rgba(255, 255, 255, 0.185);
+}
+
+.quick_access_ico {
+  align-content: center;
+  display: block;
+  padding: 10px;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 90px;
+  font-size: 1.3em;
+  color: black;
+}
+
+.quick_access_item_label {
+  white-space: nowrap;
+  overflow: hidden;
+  float: center;
+  margin-top: 5px;
+  color: beige;
+}
+
+/* Кнопка редагувати */
+
+.button_customise {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 10px 25px;
+  background-color: #3b475393;
+  border-radius: 90px;
+  text-decoration: none;
+  color: #8ab4f8;
+}
+
+.button_customise:hover {
+  background-color: #3b4753d8;
+}
