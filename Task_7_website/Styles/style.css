@@ -1,0 +1,137 @@
+* {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin-bottom: 60px;
+  float: left;
+  width: calc(100% - 20px) ;
+  height: 50px ;
+  color: white;
+  background-color: #212529;
+  padding: 10px;
+}
+
+.navbar {
+font-size: 20px;
+
+}
+
+.search {
+padding: 10px;
+width: 200px;
+height: 3.2em;
+border-radius: 7px;
+}
+
+
+.block_search{
+float: right;
+}
+
+.button_search {
+  right: 10px;
+  bottom: 10px;
+  padding: 7px 20px;
+  background-color: #242c3493;
+  border-radius: 5px;
+  text-decoration: none;
+  color: green;
+  border: 1px solid green ;
+}
+
+.button_search:hover {
+  background-color: green;
+  color:white;
+  transition-duration: 0.2s;
+ }
+
+
+a {
+    text-decoration: none;
+    color: white ;
+}
+
+.firstline {
+  font-size: 65px;
+}
+
+.firstline_ {
+  font-size: 40px;
+}
+
+.article {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fafafa ;
+  height: 270px ;
+  width: 70%;
+
+}
+
+.but {
+margin-top: 20px;
+}
+
+.bord:hover {
+    background-color: rgb(25, 78, 168);
+
+}
+
+.bord {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 13px 35px;
+    background-color: rgb(33, 104, 224);
+    border-radius: 5px;
+  }
+
+
+.tree_div {
+  padding: 0 0 0 110px;
+  margin-left: auto;
+  margin-right: auto;
+width: 820px;
+height:320px ;
+margin-top: 170px;
+
+}
+
+.one, .two, .tree {
+  float: left;
+  margin: 10px;
+  padding:10px;
+  width: 25%;
+  height: auto ;
+  border-radius: 5px ;
+  box-sizing: border-box;
+}
+
+.but_ {
+margin-top: 20px;
+}
+
+.bord_:hover {
+    background-color: rgb(43, 47, 54);
+
+}
+
+.bord_ {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    background-color: rgb(74, 68, 68);
+    border-radius: 5px;
+  }
+
+
+  footer {
+    margin-top:100px;
+    padding: 20px;
+    color: rgb(31, 25, 25);
+padding: 0 0 0 140px;
+  }
