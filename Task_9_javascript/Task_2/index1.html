@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript_Task_2</title>
+
+<script type="text/javascript">
+
+function addition()
+{
+  var a = (document.getElementById('a').value);
+			var b = (document.getElementById('b').value);
+
+if (a == 0 || b == 0) {
+  alert ("На нуль ділити не можна!");
+}
+
+
+else {
+alert (`
+${a} + ${b} = ${a+b}
+${a} - ${b} = ${a-b}
+${a} * ${b} = ${a*b}
+${a} / ${b} = ${a/b}`);
+}
+// else {
+// alert ("Введіть число!");
+// }
+
+
+
+}
+
+</script>
+
+</head>
+<body>
+
+
+  	<input id="a" type="text">
+    and
+  	<input id="b" type="text">
+    <br>
+    <br>
+    <input type="button" value="Результат" onclick="addition();"><br>
+
+
+
+
+</body>
+</html>

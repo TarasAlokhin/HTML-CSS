@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScript_Task_2</title>
+
+    <script type="text/javascript">
+      function calculation() {
+        var a = Number(document.getElementById("a").value);
+        var b = Number(document.getElementById("b").value);
+        if (b === 0) alert("На нуль ділити не можна");
+        else {
+          alert(`${a} + ${b} = ${a + b}
+${a} - ${b} = ${a - b}
+${a} * ${b} = ${a * b}
+${a} / ${b} = ${a / b}`);
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <input id="a" type="number" /> <input id="b" type="number" />
+    <br />
+    <br />
+    <input type="button" value="Результат" onclick="calculation();" /><br />
+  </body>
+</html>
