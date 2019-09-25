@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <script src="js/index.js""></script>
+    <title>Calculator</title>
+  </head>
+
+  <body>
+<div class="calculator">
+  <div class="contents">
+
+<input type="text" id="string">
+
+
+<div class="one_row_option">
+  <button type="button" id="+" onclick="option(this)" value="+" class="addition" ><span>+</span></button>
+  <button type="button" id="-" onclick="option(this)" value="-" class="subtraction" ><span>-</span></button>
+  <button type="button" id="*" onclick="option(this)" value="*" class="multiplication" ><span>*</span></button>
+  <button type="button" id="/" onclick="option(this)" value="/" class="division" ><span>/</span></button>
+</div>
+
+<div class="two_row_numbers">
+  
+    <button type="button" id="1" onclick="number(this)" value="1"><span>1</span></button>
+    <button type="button" id="2" onclick="number(this)" value="2"><span>2</span></span></button>
+    <button type="button" id="3" onclick="number(this)" value="3"><span>3</span></button>
+    
+  </div>
+
+  <div class="three_row_numbers">
+  
+      <button type="button" id="4" onclick="number(this)" value="4"><span>4</span></button>
+      <button type="button" id="5" onclick="number(this)" value="5"><span>5</span></button>
+      <button type="button" id="6" onclick="number(this)" value="6"><span>6</span></button>
+      
+    </div>
+
+
+    <div class="four_row_numbers">
+  
+        <button type="button" id="7" onclick="number(this)" value="7"><span>7</span></button>
+        <button type="button" id="8" onclick="number(this)" value="8"><span>8</span></button>
+        <button type="button" id="9" onclick="number(this)" value="9"><span>9</span></button>
+        
+
+      </div>
+
+      <div class="five_row_numbers">
+  
+          <button type="button" id="0" onclick="number(this)" value="0"><span>0</span></button>
+          <button type="button" id="." onclick="number(this)" ><span>.</span></button>
+          <button onclick="main()" class="equal"><span>=</span></button>
+        </div>
+
+</div>
+
+</div>
+
+
+  </body>
+</html>

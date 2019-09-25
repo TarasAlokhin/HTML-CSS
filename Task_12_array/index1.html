@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Задачі на масиви</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // Заповнити масив нулями ,периший і останній елементи мають бути одиницею
+      let a = 10;
+      let arr = [];
+      for (let i = 1; i <= a; i++) {
+        if (i === 1 || i === a) {
+          arr.push(1);
+        } else {
+          arr.push(0);
+        }
+      }
+      document.write(arr);
+      document.write(
+        "Заповнити масив нулями ,периший і останній елементи мають бути одиницею"
+      );
+      document.write("<br />");
+      // Зростаючий масив з парних чисел
+      arr = [];
+      for (i = 0; i <= 10; i++) {
+        arr[i] = i * 2;
+        document.write(arr[i] + " ");
+      }
+      document.write("Зростаючий масив з парних чисел");
+      document.write("<br />");
+      //   Заповнити масив послідовними непарними числами починаючи з одиниці
+
+      arr = [];
+      for (i = 1; i <= 10; i++) {
+        arr[i] = i * 2 - 1;
+        document.write(arr[i] + " ");
+      }
+      document.write(
+        "Заповнити масив послідовними непарними числами починаючи з одиниці"
+      );
+      document.write("<br />");
+      //   Заповнити масив послідовно нулями і одиницями починаючи з одиниці
+      arr = [];
+      for (let i = 1; i <= 10; i++) {
+        if (i % 2 === 1) {
+          arr.push(1);
+        } else {
+          arr.push(0);
+        }
+      }
+      document.write(arr);
+      document.write(
+        "Заповнити масив послідовно нулями і одиницями починаючи з одиниці"
+      );
+      document.write("<br />");
+      //   Заповнити масив послідовно нулями і одиницями починаючи з нуля
+      arr = [];
+      for (let i = 1; i <= 10; i++) {
+        if (i % 2 === 0) {
+          arr.push(1);
+        } else {
+          arr.push(0);
+        }
+      }
+      document.write(arr);
+      document.write(
+        "Заповнити масив послідовно нулями і одиницями починаючи з нуля"
+      );
+      document.write("<br />");
+      // Сформувати масив з елементів арифметичної прогресії з заданим першим елементом х (в данному випадку х=1) і різницею d (в данному випадку d = 4)
+      d = 4;
+      a = 0;
+      arr = [];
+      for (let i = 1; i <= 10; i++) {
+        arr[i] = a + i * d + 1;
+      }
+      document.write(1, arr);
+      document.write(
+        "Сформувати масив з елементів арифметичної прогресії з заданим першим елементом х (в данному випадку х=1) і різницею d (в данному випадку d = 4)"
+      );
+      document.write("<br />");
+      //   Сформувати спадаючий масив з чисел,які діляться на 3
+      arr = [];
+      for (let i = 10; i >= 0; i--) {
+        arr[i] = i * 3;
+        document.write(arr[i] + " ");
+      }
+      document.write("Сформувати спадаючий масив з чисел,які діляться на 3");
+      document.write("<br />");
+      //   Створити масив з n периших чисел Фібоначі
+      var fib = [];
+      fib[0] = 0;
+      fib[1] = 1;
+      for (let i = 2; i <= 10; i++) {
+        fib[i] = fib[i - 2] + fib[i - 1];
+        document.write(fib[i] + " ");
+      }
+      document.write("Створити масив з n периших чисел Фібоначі");
+      document.write("<br />");
+      //   Масив ,кожен елемент якого рівний квадрату свого номера
+      arr = [];
+      for (i = 0; i <= 10; i++) {
+        arr[i] = i;
+      }
+      document.write(arr + " ");
+      document.write("Масив ,кожен елемент якого рівний квадрату свого номера");
+      document.write("<br />");
+    </script>
+  </body>
+</html>

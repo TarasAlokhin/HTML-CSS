@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#string {
+  display: block;
+  width: 90%;
+  font-size: 2em;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.one_row_option,
+.two_row_numbers,
+.three_row_numbers,
+.four_row_numbers,
+.five_row_numbers {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.calculator {
+  border-radius: 10px;
+  background-color: blueviolet;
+  width: 350px;
+  height: 430px;
+}
+
+div > button {
+  background-color: gray;
+  height: 30px;
+}
+
+span {
+  padding: 30px;
+  font-size: 2em;
+}

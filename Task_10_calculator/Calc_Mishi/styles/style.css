@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 32px;
+}
+body {
+  height: 100vh;
+}
+
+.calculator {
+  margin: 50px auto;
+  height: max-content;
+  width: 50vh;
+  border: 1px solid grey;
+}
+
+input {
+  width: 100%;
+  border: none;
+  overflow: auto;
+  text-align: right;
+}
+
+.buttons {
+  display: flex;
+}
+
+.numbers {
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.options {
+  width: 25%;
+  display: grid;
+}
+
+.buttons button {
+  background-color: #fafafa;
+  border: none;
+}
+
+.buttons button:hover {
+  background-color: #eeecec;
+}
