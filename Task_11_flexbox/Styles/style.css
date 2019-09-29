@@ -9,22 +9,25 @@
   border: 20px solid black;
   display: flex;
 }
-.parent > div {
-  width: 100px;
-  height: 100px;
-}
+
 h1 {
   color: aliceblue;
 }
 .child_1 {
+  width: 100px;
+  height: 100px;
   background-color: purple;
 }
 
 .child_2 {
+  width: 100px;
+  height: 100px;
   background-color: red;
   align-self: center;
 }
 .child_3 {
+  width: 100px;
+  height: 100px;
   background-color: blue;
   align-self: flex-end;
 }
