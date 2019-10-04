@@ -1,102 +1,5 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  font-size: 2.3vw;
-  padding: 0px 14px;
-  background-color: #242c3493;
-  border-radius: 5px;
-  text-decoration: none;
-  color: black;
-  border: 1px solid black;
-  margin: 0 0 5px 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-p:active {
-  padding-bottom: 7px;
-}
-
-.black:hover {
-  background-color: black;
-  color: white;
-}
-
-.white:hover {
-  background-color: white;
-  color: black;
-}
-
-.red:hover {
-  background-color: red;
-}
-
-.blue:hover {
-  background-color: blue;
-}
-
-.yellow:hover {
-  background-color: yellow;
-}
-
-.gray:hover {
-  background-color: gray;
-}
-
-.brown:hover {
-  background-color: brown;
-}
-
-.coral:hover {
-  background-color: coral;
-}
-
-.green:hover {
-  background-color: green;
-}
-
-.yellow:hover {
-  background-color: yellow;
-}
-
-.parent {
-  height: 100vh;
-  display: flex;
-}
-
-.colorheader {
-  font-size: 5vh;
-  padding: 0 0 20px 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.colorlist {
-  overflow: auto;
-  width: 300px;
-  height: 100vh - 20px;
-  right: 10px;
-  bottom: 10px;
-  padding: 7px 20px;
-  background-color: white;
-  border: 5px solid white;
-}
-
-#screen {
-  width: 80%;
-  height: 100vh - 20px;
-  background-color: White;
-  border-radius: 10px;
-  border: 5px solid black;
-}
-
-/* popur menu */
 #show {
-  background-color: gray;
+  background-color: #7c7fe0;
   border: 0;
   color: #fff;
   padding: 10px 20px;
@@ -104,28 +7,24 @@ p:active {
   cursor: pointer;
   outline: none;
   position: absolute;
-  margin: 30px;
-  left: 60%;
+  top: 50%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
-#show:hover {
-  color: white;
-  background-color: green;
-}
-
 .navigation {
-  border-radius: 0 10px 10px 0;
   position: fixed;
-  width: 21.5%;
+  width: 300px;
   height: 100%;
+  top: 0;
   overflow-y: auto;
   overflow-x: hidden;
   opacity: 0;
   visibility: hidden;
   z-index: 99;
   transition-delay: 300ms;
+  left: 0;
 }
 .navigation.active {
   opacity: 1;
@@ -149,7 +48,6 @@ p:active {
 }
 
 .navigation__inner {
-  border-radius: 0 10px 10px 0;
   position: absolute;
   width: 100%;
   height: 100%;

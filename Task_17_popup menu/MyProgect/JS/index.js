@@ -1,7 +1,3 @@
-function Color(color) {
-  document.getElementById("screen").style.backgroundColor = color;
-}
-
 var $btn = document.getElementById("show");
 var $nav = document.getElementById("nav");
 

@@ -9,19 +9,22 @@
   </head>
   <body>
     <div class="parent">
-      <div class="colorlist">
-        <h2 class="colorheader">COLOR LIST</h2>
-        <p class="black" onclick="ColorBlack()">Black</p>
-        <p class="white" onclick="ColorWhite()">White</p>
-        <p class="red" onclick="ColorRed()">Red</p>
-        <p class="blue" onclick="ColorBlue()">Blue</p>
-        <p class="yellow" onclick="ColorYellow()">Yellow</p>
-        <p class="gray" onclick="ColorGray()">Gray</p>
-        <p class="brown" onclick="ColorBrown()">Brown</p>
-        <p class="coral" onclick="ColorCoral()">Coral</p>
-        <p class="green" onclick="ColorGreen()">Green</p>
-        <p class="yellow" onclick="ColorYellow()">Yellow</p>
+      <div class="colorlist"></div>
+      <div id="nav" class="navigation">
+        <div class="navigation__inner">
+          <p class="black" onclick="Color('black')">Black</p>
+          <p class="white" onclick="Color('white')">White</p>
+          <p class="red" onclick="Color('red')">Red</p>
+          <p class="blue" onclick="Color('blue')">Blue</p>
+          <p class="yellow" onclick="Color('yellow')">Yellow</p>
+          <p class="gray" onclick="Color('gray')">Gray</p>
+          <p class="brown" onclick="Color('brown')">Brown</p>
+          <p class="coral" onclick="Color('coral')">Coral</p>
+          <p class="green" onclick="Color('green')">Green</p>
+          <p class="yellow" onclick="Color('yellow')">Yellow</p>
+        </div>
       </div>
+      <button id="show">COLOR LIST</button>
       <div id="screen"></div>
     </div>
   </body>
