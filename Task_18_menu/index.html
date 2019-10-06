@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      #menu {
+        position: absolute;
+        left: 0px;
+        top: 0;
+        width: 300px;
+        height: 100vh;
+        background-color: blueviolet;
+        transition: left 0.5s linear;
+      }
+
+      #button_menu {
+        position: absolute;
+        left: calc (50 - 100%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="menu"></div>
+    <button id="button_menu" onclick="menu_popur()">MENU</button>
+
+    <script>
+      function menu_popur() {
+        if (document.getElementById("menu").style.left === "0px") {
+          document.getElementById("menu").style.left = "-100%";
+        } else {
+          document.getElementById("menu").style.left = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
