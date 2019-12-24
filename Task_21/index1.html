@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" name="" id="name" placeholder="Ім'я" />
+    <br />
+    <br />
+    <input type="text" name="" id="surname" placeholder="Прізвище" />
+    <br />
+    <br />
+    <input type="text" name="" id="age" placeholder="Вік" />
+    <br />
+    <br />
+    <input type="button" value="OK" onclick="add()" />
+    <input type="button" value="CANSEL" onclick="cansele()" />
+    <hr />
+    <div id="block-1"></div>
+
+    <script>
+      function add() {
+        let element = document.getElementById("block-1");
+        let a = document.createElement("a");
+        let br = document.createElement("br");
+
+        x =
+          document.getElementById("name").value +
+          "<br />" +
+          document.getElementById("surname").value +
+          "<br />" +
+          document.getElementById("age").value;
+
+        a.innerHTML = x + "<br />";
+
+        element.appendChild(br);
+        element.appendChild(a);
+
+        document.getElementById("name").value = "";
+        document.getElementById("surname").value = "";
+        document.getElementById("age").value = "";
+      }
+
+      function cansele() {
+        let element = document.getElementById("block-1");
+        document.body.removeChild(element);
+      }
+    </script>
+  </body>
+</html>

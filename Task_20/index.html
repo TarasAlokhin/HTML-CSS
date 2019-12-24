@@ -7,28 +7,74 @@
     <title>Array</title>
   </head>
   <body>
-    <div id="NameTable"></div>
-    <script>
+    <!-- <div id="NameTable"></div> -->
+    <!-- <script>
       let names = [
-        "Misha",
-        "Volodya",
-        "Ostap",
-        "Taras",
-        "Yura",
-        "Katya",
-        "Sasha",
-        "Natasha",
-        "Oksana"
+        { name: "Misha ", surname: " Shevchuk ", age: " 21" },
+        { name: "Volodya ", surname: " Repetskiy", age: " 23" },
+        { name: "Ostap ", surname: " Okolovych", age: " 18" },
+        { name: "Taras ", surname: " Alokhin", age: " 22" },
+        { name: "Yura ", surname: " Shniczher", age: " 17" },
+        { name: "Katya ", surname: " Vyrsta", age: " 20" },
+        { name: "Sasha ", surname: " Myronenko", age: " 21" },
+        { name: "Natasha ", surname: " Vakula", age: " 16" },
+        { name: "Oksana ", surname: " Veresyuk", age: " 18" }
       ];
 
       let html = "<table><ul>";
       for (let i = 0; i < names.length; i++) {
-        html += "<ul>" + names[i] + "</ul>";
+        html +=
+          "<ul>" + names[i].name + names[i].surname + names[i].age + "</ul>";
       }
-
-      html += "</ul></table>";
-
       document.getElementById("NameTable").innerHTML = html;
+    </script> -->
+    <ul class="list"></ul>
+
+    <form action="">
+      <input type="text" name="name" placeholder="Ім'я" />
+      <br /><br />
+      <input type="text" name="lastname" placeholder="Прізвище" />
+      <br /><br />
+      <input type="text" name="age" placeholder="Вік" />
+      <br /><br />
+      <button>OK</button>
+      <hr />
+    </form>
+
+    <script>
+      let ul = document.querySelector(".list");
+
+      let persons = [
+        {
+          name: "Taras",
+          lastName: "Alokhin",
+          age: 22,
+          hobbies: ["IT", "Unicycle", "Sport", "Walking"]
+        },
+        {
+          name: "Misha",
+          lastName: "Shevchuk",
+          age: 21,
+          hobbies: ["IT", "Unicycle", "Sport", "Walking"]
+        },
+        {
+          name: "Volodya",
+          lastName: "Repetskuy",
+          age: 23,
+          hobbies: ["IT", "Unicycle", "Sport", "Walking"]
+        }
+      ];
+
+      persons.forEach(person => {
+        let object = `Hello, my name is ${person.name} ${
+          person.lastName
+        }, I am ${person.age} years old.
+   I have hobbies: ${person.hobbies.join(", ")}.`;
+        let li = document.createElement("li");
+        li.className = "item_list";
+        li.innerText = object;
+        ul.appendChild(li);
+      });
     </script>
   </body>
 </html>
