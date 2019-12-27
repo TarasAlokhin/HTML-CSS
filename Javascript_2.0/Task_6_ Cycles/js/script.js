@@ -74,12 +74,26 @@ document.querySelector(".btn4").onclick = () => {
 
 document.querySelector(".btn5").onclick = () => {
   for (let i = 1; i <= 17; i++) {
-    document.querySelector(".out5").innerHTML += i + "_*";
+    if (i % 2 === 1) {
+      document.querySelector(".out5").innerHTML += i + "_*";
+    }
+    if (i % 2 === 0) {
+      document.querySelector(".out5").innerHTML += i + "_**";
+    }
   }
 };
 // Task_6
 document.querySelector(".btn6").onclick = () => {
   for (let i = 1; i <= 3; i++) {
     document.querySelector(".out6").innerHTML += "******" + "<br />";
+  }
+};
+// Task_7
+let inp7 = document.querySelector(".inp7");
+
+document.querySelector(".btn7").onclick = () => {
+  for (i = inp7.value; i >= 0; i--) {
+    document.querySelector(".out7").innerHTML += i + " ";
+    inp7.value = "";
   }
 };
