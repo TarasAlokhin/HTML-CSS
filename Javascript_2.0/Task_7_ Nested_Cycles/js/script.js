@@ -56,3 +56,40 @@ for (i = 1; i < 4; i++) {
 
 // Task_3
 // За допомогою вкладених циклів висести
+// *_*_*_
+// *_*_*_
+// *_*_*_
+// *_*_*_
+let out3 = document.querySelector(".out3");
+
+for (i = 1; i < 5; i++) {
+  for (k = 1; k < 4; k++) {
+    out3.innerHTML += "*_";
+  }
+  out3.innerHTML += "<br>";
+}
+
+// Task_4
+// // С помощью вложенных циклов, нарисуйте строку:
+// зроблено за допопмогою простого циклу
+
+// 0_10_1_9_2_8_3_7_4_6_5_5_6_4_7_3_8_2_9_1_10_0_
+let out4 = document.querySelector(".out4");
+
+for (i = 0; i <= 10; i++) {
+  out4.innerHTML += i + "_" + (10 - i) + "_";
+}
+// Task_5
+// За допомогою вкладених циклів вивести:
+// 101010
+// 101010
+// 101010
+let out5 = document.querySelector(".out5");
+
+for (i = 0; i < 3; i++) {
+  for (k = 0; k < 3; k++) {
+    out5.innerHTML += 1;
+    out5.innerHTML += 0;
+  }
+  out5.innerHTML += "<br>";
+}
