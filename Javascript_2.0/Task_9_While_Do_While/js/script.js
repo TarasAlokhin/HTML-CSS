@@ -64,7 +64,7 @@ let out_2 = "";
 let j = 0;
 btn2.onclick = () => {
   while (j <= 50) {
-    out_2 += j + " ";
+    out_2 += j + "&nbsp";
     j++;
   }
   out2.innerHTML = out_2;
@@ -77,22 +77,49 @@ btn2.onclick = () => {
 let out3 = document.querySelector(".out3");
 let btn3 = document.querySelector(".btn3");
 let out_3 = "";
+let q = 2;
 
 btn3.onclick = () => {
-  let q = 2;
   while (q <= 122) {
-    if (122 % q == 0) {
+    if (q % 2 == 0) {
       out_3 += q;
     } else {
       out_3 += "&nbsp";
     }
     q++;
   }
+  out3.innerHTML = out_3;
 };
-out3.innerHTML = out_3;
+
+// Task_3
+// Кнопка btn4 запускает функцию. Функция должна выводить в out4 строку вида:
+
+// 25 24 23 22 . . 7
+let out_4 = "";
+let t = 25;
 
 document.querySelector(".btn4").onclick = () => {
-  for (let i = 0; i <= 122; i = i + 2) {
-    document.querySelector(".out4").innerHTML += i + " ";
+  while (t >= 7) {
+    out_4 += t + " ";
+    t--;
   }
+  document.querySelector(".out4").innerHTML += out_4;
+};
+
+// Task_4
+// Кнопка btn5 запускає функцію. Функція повинна виводити в out5 рядок виду:
+
+// 77_74_71_68_65_62_ ... _38_35_
+
+// від 77 до 35 c кроком 3. Роздільник - знак підкреслення. Завдання вирішується за допомогою циклу while.
+let btn5 = document.querySelector(".btn5");
+let out5 = document.querySelector(".out5");
+let out_5 = "";
+let m = 77;
+btn5.onclick = () => {
+  while (m >= 35) {
+    out_5 += m + "_";
+    m = m - 3;
+  }
+  out5.innerHTML = out_5;
 };
