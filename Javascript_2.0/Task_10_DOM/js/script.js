@@ -56,13 +56,27 @@ p.onclick = function() {
 
 document.querySelector(".test_1").appendChild(p);
 
+// Task_2
+// Напишите функцию func_2, которая будучи запущенной присваивает блоку p.u-2 класс css-1. Задайте данному классу через CSS зеленый цвет фона.
+let test_2 = document.querySelector(".test_2");
 let tog = document.createElement("button");
-tog.classList.add("css_1");
+test_2.classList.add("css_1");
+let css_1 = document.querySelector(".css_1");
 tog.innerHTML = "Green";
 tog.onclick = function() {
-  tog.style.width = "200px";
-  tog.style.paddingBottom = "40px";
-  tog.style.background = "green";
+  css_1.style.width = "200px";
+  css_1.style.paddingBottom = "40px";
+  css_1.style.background = "green";
 };
 
 document.querySelector(".test_2").appendChild(tog);
+
+// Task_3
+// Используя цикл, добавьте на все блоки p.u-3 событие onclick. По клику запускайте функцию func_3, которая окрашивает элемент, на котором произошло событие в красный цвет фона. Для обращения внутри функции к такому элементу используйте this.
+
+let u_3 = document.querySelectorAll(".u_3");
+for (let y = 0; y < u_3.length; y++) {
+  u_3[y].onclick = function() {
+    this.style.background = "green";
+  };
+}
