@@ -42,7 +42,7 @@
 // Task_1
 
 document.querySelector(".btn1").onclick = () => {
-  for (let i = 0; i <= 50; i++) {
+  for (let i = 1; i <= 50; i++) {
     document.querySelector(".out1").innerHTML += i + " ";
   }
 };

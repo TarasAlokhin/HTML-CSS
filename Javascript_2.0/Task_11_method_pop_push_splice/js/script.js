@@ -59,11 +59,20 @@ btn_2.onclick = function() {
   out_2.innerHTML = j;
 };
 // Task_3
-// Напишіть функцію , яка застосовує метод shift до масіви j, і забуте виводить його в .out_3
+// Напишіть функцію , яка застосовує метод shift до масіви j, і виводить його в .out_3
 let btn_3 = document.querySelector(".btn_3");
 let out_3 = document.querySelector(".out_3");
 btn_3.onclick = function() {
   j.shift();
   console.log(j);
   out_3.innerHTML = j;
+};
+// Task_4
+// Напишіть функцію , яка застосовує метод push до масиву j, а потім виводить його .out-4
+let btn_4 = document.querySelector(".btn_4");
+let out_4 = document.querySelector(".out_4");
+btn_4.onclick = function() {
+  j.push(inp_1.value);
+  console.log(j);
+  out_4.innerHTML = j;
 };
